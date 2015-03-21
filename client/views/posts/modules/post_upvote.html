@@ -4,10 +4,16 @@
       <i class="icon-check action-icon" aria-hidden></i>
       <span class="sr-only">{{_ "upvoted"}}</span>
     </span>
+    <div style="text-align:center">
+      <span class="points">{{baseScore}}</span>
+    </div>
   {{else}}
     <a class="upvote-link not-voted action" href="#" title="{{_ "upvote_"}}">
       <i class="icon-up action-icon" aria-hidden="true"></i>
       <span class="sr-only">{{_ "upvote_"}}</span>
     </a>
+    <div style="text-align:center">
+      <span class="points">{{baseScore}}</span>
+    </div>
   {{/if}}
 </template>

@@ -1,0 +1,135 @@
+body {
+  background: #F9F5F0;
+}
+
+a:hover {
+  color: #F4C46F;
+}
+
+.header {
+  background-color: #3A4245;
+  border-bottom: 1px solid #C7C7C7;
+  position: fixed;
+  width: 100%;
+}
+
+.search .search-field {
+  color: #4a4444;
+  font-size: 14px;
+  padding: 4px 12px;
+  line-height: 1.3;
+  border-radius: 20px;
+  border: 0px;
+  width: 200px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  -webkit-appearance: textfield;
+  background: #FFFFFF;
+}
+
+.btn-primary, .submit {
+  background: #62D6AE;
+  border-bottom: 2px solid #35A079;
+}
+
+.error, .at-error {
+  margin-bottom: 10px;
+  text-align: center;
+  background: #CA4343;
+  color: white;
+}
+
+.content-wrapper {
+  padding: 100px 10px 30px 10px;
+}
+
+.banner.banner {
+  background: #F4C46F;
+  border-radius:10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.posts-day-heading {
+  font-size: 20px;
+  color: rgba(0,0,0,0.5);
+  margin: 0 0 10px 0;
+}
+
+.post-upvote .upvote-link i {
+  border-color: #F4C46F;
+}
+
+.post-upvote .upvote-link i {
+  opacity: 0.4;
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px solid #F4C46F;
+  font-size: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #F4C46F;
+  text-shadow: 0px 1px 0px white;
+  line-height: 2.3;
+  margin: 5px;
+}
+
+.post-upvote .upvote-link.voted i.icon-check {
+  border: 3px solid #02A47C;
+  display: inline-block;
+  color: #02A47C;
+  opacity: 1;
+}
+
+.post-upvote .upvote-link i:before {
+  top: 2px;
+}
+
+.avatar-small {
+  height: 40px;
+  width: 40px;
+}
+
+.avatar-small .avatar-initials {
+  font-size: 13px;
+  line-height: 24px;
+  padding-top: 8px;
+}
+
+.post-avatars .avatar {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.action.discuss-link {
+  color: #aaa;
+}
+
+.posts-list .post-rank .post-rank-inner {
+  height: 25px;
+  position: relative;
+  display: none;
+}
+
+.post-meta a:hover {
+  color: #F4C46F;
+}
+
+.post-category {
+  border-radius: 2px;
+}
+
+.post-category:hover {
+  background: #62D6AE;
+  color: white;
+}
+
+.add-category {
+  background: #FFFFFF;
+  border-radius: 5px;
+}
